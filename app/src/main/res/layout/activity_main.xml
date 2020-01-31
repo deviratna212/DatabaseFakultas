@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:layout_margin="15dp"
+	tools:context=".MainActivity">
+	
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="id fakultas"
+		android:layout_marginTop="10dp"
+		android:textColorHint="@color/colorAccent"
+		android:id="@+id/edIdFk"/>
+	
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="nama fakultas"
+		android:textColorHint="@color/colorAccent"
+		android:id="@+id/edNamaFk"
+		android:layout_marginTop="10dp"/>
+	
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/insert"
+		android:text="insert"
+		android:background="@color/colorPrimary"
+		android:textColor="@android:color/white"
+		android:layout_marginTop="10dp"/>
+	
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/update"
+		android:text="update"
+		android:background="@color/colorPrimary"
+		android:textColor="@android:color/white"
+		android:layout_marginTop="10dp"/>
+	
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/delete"
+		android:text="delete"
+		android:background="@color/colorPrimary"
+		android:textColor="@android:color/white"
+		android:layout_marginTop="10dp"/>
+	
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/view"
+		android:text="view list"
+		android:layout_marginTop="10dp"
+		android:background="@color/colorPrimary"
+		android:textColor="@android:color/white"/>
+	
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Data Fakultas"
+		android:textSize="20sp"
+		android:textStyle="bold"
+		android:layout_marginTop="15dp"
+		/>
+	
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="15dp">
+		
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/datas"
+			/>
+		
+	</ScrollView>
+</LinearLayout>
